@@ -1,0 +1,58 @@
+{
+  "lang": "en",
+  "status": {
+    "errorType": "success",
+    "code": 200
+  },
+  "timestamp": "2017-09-04T19:15:03.624Z",
+  "sessionId": "77df3179-e47c-4f99-8f5a-84c63d626c46",
+  "result": {
+    "parameters": {
+      "origin": {
+        "station": "downtown berkeley"
+      },
+      "direction": "north",
+      "destination": ""
+    },
+    "contexts": [
+      {
+        "name": "end_conversation",
+        "parameters": {
+          "origin": {
+            "station.object": {},
+            "station": "downtown berkeley",
+            "station.original": "berkeley"
+          },
+          "direction": "north",
+          "destination": "",
+          "direction.original": "northbound",
+          "origin.original": "berkeley",
+          "destination.original": ""
+        },
+        "lifespan": 1
+      }
+    ],
+    "resolvedQuery": "when does next northbound train depart berkeley station",
+    "source": "agent",
+    "score": 0.9200000166893005,
+    "speech": "",
+    "fulfillment": {
+      "messages": [
+        {
+          "speech": "I'm having trouble today. I'm sorry. I recommend Google Maps or the official BART app. I'm sorry.",
+          "type": 0
+        }
+      ],
+      "speech": "I'm having trouble today. I'm sorry. I recommend Google Maps or the official BART app. I'm sorry."
+    },
+    "actionIncomplete": false,
+    "action": "bart_etd",
+    "metadata": {
+      "intentId": "e2b62af4-ed63-4c86-a744-3d749ad390d0",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "When does next train leave",
+      "webhookUsed": "true"
+    }
+  },
+  "id": "92e2a8d1-3c43-49b8-adc0-7b182858056b"
+}

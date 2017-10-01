@@ -1,0 +1,88 @@
+{
+  "userSays": [
+    {
+      "id": "3fde8785-5b79-4607-9a5c-d6f7bd9f18da",
+      "data": [
+        {
+          "text": "Get me the eta of the next southbound train leaving "
+        },
+        {
+          "text": "san francisco airport",
+          "alias": "station",
+          "meta": "@station",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c6547662-9898-4076-8a3a-d7b8e0b0257d",
+      "data": [
+        {
+          "text": "Find me the next southbound train leave "
+        },
+        {
+          "text": "SFO.",
+          "alias": "station",
+          "meta": "@station",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cd3eb008-5fd0-4c54-9cbf-ee3eb4cd6f25",
+      "data": [
+        {
+          "text": "When does next southbound train leave "
+        },
+        {
+          "text": "ashby",
+          "alias": "station",
+          "meta": "@station",
+          "userDefined": true
+        },
+        {
+          "text": " station?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e2ff2f1d-b3f3-4301-8425-598456b02ce2",
+  "name": "Next southbound train",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@station",
+          "name": "station",
+          "value": "$station",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "the webhook has failed"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,5 @@
+{
+  "speech": "The next north bound train leaves downtown berkeley in 4 minutes. Then, another northbound train will depart embarcadero station in 12 minutes",
+  "display API": "The next North-bound train leaves Downtown Berkeley station in 4 minutes. Then, another northbound train will depart Embarcadero station in 12 minutes",
+  "source": "BART API"
+}
